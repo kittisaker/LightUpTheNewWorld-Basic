@@ -1,19 +1,44 @@
-# LightUpTheNewWorld-Basic : C++, Java, TypeScript and Python
+# LightUpTheNewWorld-Basic : Chapter-3 main() Method
 
-# Please select a Branch to enter each lesson.
-* Chapter-1 : First Hello World Program
-* Chapter-2 : Variables
-* Chapter-3 : main() Method
-* Chapter-4 : Access Modifiers
-* Chapter-5 : Arithmetic Operators
-* Chapter-6 : Bitwise Operators
-* Chapter-7 : Equality, Relational, and Conditional Operators
-* Chapter-8 : Primitive Data Types
-* Chapter-9 : if Statement
-* Chapter-10 : Switch Case Statement
-* Chapter-11 : for Loop
-* Chapter-12 : while Loop
-* Chapter-13 : do-while Loop
-* Chapter-14 : continue Statement
-* Chapter-15 : break Statement
+## main() Method with C++, Java, TypeScript, Python
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    cout << "Hello from C++!" << endl;
+    return 0; // A return code of 0 usually indicates successful execution
+}
+```
+
+```java
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello from Java!");
+    }
+}
+```
+
+```typescript
+class App {
+    constructor() {
+        this.run();
+    }
+
+    run() {
+        console.log("Hello from TypeScript!");
+    }
+}
+
+const app = new App();
+```
+
+```python
+def main():
+    print("Hello from Python!")
+
+if __name__ == "__main__":
+    main()
+```
+
 ---

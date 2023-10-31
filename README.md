@@ -4,8 +4,19 @@
 
 ### C++
 ```shell
-g++ Main.cpp -o main
-.\main
+g++ hello_world.cpp -o hello_world
+.\hello_world
+```
+
+### C#
+```shell
+csc hello_world.cs
+.\hello_world
+```
+
+### Dart
+```shell
+dart hello_world.dart
 ```
 
 ### Java
@@ -26,15 +37,48 @@ python Main.py
 
 ## Hollo World Program
 
+<details>
+<summary>C++</summary>
+
 ```cpp
 #include <iostream>
-using namespace std;
 
-int main(){
-    cout << "Hello, World!" << endl;
+int main() {
+    std::cout << "Hello, World!" << std::endl;
     return 0;
 }
 ```
+
+</details>
+
+<details>
+<summary>C#</summary>
+
+```cs
+using System;
+
+class Program {
+    public static void Main() {
+        Console.WriteLine("Hello, World!");
+    }
+}
+```
+
+</details>
+
+<details>
+<summary>Dart</summary>
+
+```dart
+void main() {
+    print('Hello, World!');
+}
+```
+
+</details>
+
+<details>
+<summary>Java</summary>
 
 ```java
 public class HelloWorld {
@@ -44,12 +88,24 @@ public class HelloWorld {
 }
 ```
 
-```TypeScript
+</details>
+
+<details>
+<summary>TypeScript</summary>
+
+```typescript
 console.log("Hello, World!");
 ```
 
-```Python
+</details>
+
+<details>
+<summary>Python</summary>
+
+```python
 print("Hello, World!")
 ```
+
+</details>
 
 ---
